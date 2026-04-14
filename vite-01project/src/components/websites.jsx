@@ -1,22 +1,23 @@
-import Productitem from "./product/product-item";
+import ProductItem from "./product/product-item";
 
 const dummyproduct = ["product1", "product2", "product3"];
 
-function productlist({name , city, listproduct}) {
+function ProductList({ name, city }) {
   return (
     <div>
-      <h2>ecommerce product </h2>
-      {/* <Productitem /> */}
-      <h3>user {name} user city name {city}</h3>
+      <h2>Ecommerce product</h2>
+      <h3>User {name} | City {city}</h3>
+
       <ul>
-        {listproduct.map((item, index) =>(
-          <productlist singleproductitem={item} key={index} />
-      
-        ))
-          
-        }
-    </ul>
+        {dummyproduct.map((item, index) => (
+          <ProductItem
+            singleproductitem={item}
+            key={index}
+          />
+        ))}
+      </ul>
     </div>
   );
 }
-export default productlist;
+
+export default ProductList;

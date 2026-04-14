@@ -1,14 +1,14 @@
 function Button() {
-  return (<button>
-    click
-  </button>)
+  return <button>Click</button>;
 }
 
-function Product1({ singleproductitem }, ) {
-  return (<div >
-
-    <p>{singleproductitem}</p>
-    <Button/>
-  </div>)
+function ProductItem({ singleproductitem }) {
+  return (
+    <div>
+      <p>{singleproductitem}</p>
+      <Button />
+    </div>
+  );
 }
-export default Product1
+
+export default ProductItem;
