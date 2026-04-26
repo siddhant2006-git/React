@@ -16,6 +16,14 @@ function App() {
   }
 
 
+  // imp interview - precounter can fetch the previous value  and update to new value 
+  // const addnumber = () => {
+  //   setCounter(prevCounter => prevCounter + 1)
+  //   setCounter(prevCounter => prevCounter + 2)
+  //   setCounter(prevCounter=> prevCounter+3) o/p -21
+  // }
+
+
   const removeValue = () => { 
     if (counter > 0) {
       setCounter(counter - 1)
