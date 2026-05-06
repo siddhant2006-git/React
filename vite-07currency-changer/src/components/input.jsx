@@ -11,6 +11,9 @@ function InputBox({
   currencyDisable = false,
   className = "",
 }) {
+
+  // useid- is used to generate a unique id for the input element, which is then used to associate the label with the input for accessibility purposes. This ensures that when the label is clicked, the corresponding input is focused, improving the user experience for screen readers and other assistive technologies.
+
   const amountInputId = useId();
 
   return (
