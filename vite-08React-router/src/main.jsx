@@ -29,8 +29,8 @@ const router = createBrowserRouter([
 
   },
   {
-    path: "user/:userid",
-    element:<User/>
+    path: "github/github_followers",
+    element:<git
   }
 ])
 
