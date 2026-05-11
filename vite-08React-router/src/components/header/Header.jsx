@@ -11,8 +11,8 @@ import { Link, NavLink } from 'react-router-dom'
           <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
             <Link to="/" className="flex items-center">
               <img
-                src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
-                className="mr-3 h-12"
+                src="https://static.vecteezy.com/system/resources/thumbnails/021/726/390/small/web-developer-letter-w-logo-free-vector.jpg"
+                className="mr-60 h-40"
                 alt="Logo"
               />
             </Link>

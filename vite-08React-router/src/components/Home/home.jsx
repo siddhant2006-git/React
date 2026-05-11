@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+//link- link hook is used to move from one page another page without any refresh whole page 
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
               className="inline-flex text-white items-center px-6 py-3 font-medium bg-orange-700 rounded-lg hover:opacity-75"
               to="/"
             >
+              // svg - it is used to logo , shapes of webpages 
               <svg
                 fill="white"
                 width="24"
@@ -31,13 +33,17 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-          <img className="w-96" src="https://i.ibb.co/5BCcDYB/Remote2.png" alt="image1" />
+        <div className="absolute inset-0 flex items-center justify-center pt-12 sm:my-20 sm:pt-1">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVlM61COu9kulDVyct0mUu0CouOsCS2LRb_g&s"
+            alt="Developer illustration"
+            className="w-72 sm:w-96 md:w-[450px] lg:w-[520px] h-auto object-contain rounded-2xl shadow-xl"
+          />
         </div>
       </aside>
 
       <div className="grid  place-items-center sm:mt-20">
-        <img className="sm:w-96 w-48" src="https://i.ibb.co/2M7rtLk/Remote1.png" alt="image2" />
+        <img className="sm:w-96 w-48" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV9Q6GODw0Bx19ajTbmnqzVVbIEBQRPMI6WQ&s" alt="image2" />
       </div>
 
       <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Lorem Ipsum Yojo</h1>

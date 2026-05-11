@@ -8,11 +8,11 @@ export default function Footer() {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <Link to="/" className="flex items-center">
-              <img
-                src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
-                className="mr-3 h-16"
-                alt="Logo"
-              />
+            <img
+  src="https://static.vecteezy.com/system/resources/thumbnails/021/726/390/small/web-developer-letter-w-logo-free-vector.jpg"
+  alt="Web Developer Logo"
+  className="mr-3 h-12 w-12 object-cover rounded-full shadow-md"
+/>
             </Link>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
