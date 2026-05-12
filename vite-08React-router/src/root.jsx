@@ -4,16 +4,14 @@ import Footer from './components/footer/footer'
 import Header from './components/header/Header'
 // Outlet- is used to change the value between the header , inside the header 
 
-function root() {
+function Root() {
   return (
     <>
       <Header />
-      <Outlet/>
+      <Outlet />
       <Footer />
-  
-      
     </>
   )
 }
 
-export default root
+export default Root

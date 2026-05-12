@@ -7,45 +7,22 @@ import Header from './components/header/Header.jsx'
 import About from './components/about/about.jsx'
 import Contact from './components/contact/contact.jsx'
 import Github from './components/github/github.jsx'
+import Home from './components/Home/home.jsx'
+import Root from './root.jsx'
 
 
-const router = createBrowserRouter([
-  {
-    path: `/`,
-    element: <Header />
-
-  },
-  {
-    path: "Footer",
-    element: <Footer />
-  },
-  {
-    path: "about",
-    element: <About />
-  },
-  {
-    path: "contact",
-    element:<Contact/>
-
-  },
-  {
-    path: "github",
-    element:<Github/>
-  }
-])
-
-// const router = createBrowserRouter(
-//   createRoutesFromElements(
-//     <Route path='/' element={<Header />}>
-//       <Route path="about" element={<About />} />
-//       <Route path='contact' element={<Contact />} />
-//       <Route path='footer' element={<Footer/>}/>
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path='/' element={<Root />}>
       
-//     </Route>
-//   )
-// )
-
-
+      <Route path="" element={<Home />} />
+      <Route path="home" element={<Home />} />
+      <Route path="about" element={<About />} />
+      <Route path="contact" element={<Contact />} />
+      <Route path="github" element={<Github />} />
+    </Route>
+  )
+)
 
 
 createRoot(document.getElementById('root')).render(

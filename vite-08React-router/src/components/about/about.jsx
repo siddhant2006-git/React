@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -26,7 +27,7 @@ export default function About() {
             </h2>
 
             <p className="mt-6 text-gray-600 leading-8 text-lg">
-              Hi, I am{""}
+              Hi, I am{" "}
               <span className="font-semibold text-gray-900">
                 Siddhant Bhatnagar
               </span>
@@ -59,15 +60,19 @@ export default function About() {
               <span className="px-4 py-2 bg-orange-100 text-orange-700 rounded-full font-medium">
                 HTML
               </span>
+
               <span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-full font-medium">
                 CSS
               </span>
+
               <span className="px-4 py-2 bg-yellow-100 text-yellow-700 rounded-full font-medium">
                 JavaScript
               </span>
+
               <span className="px-4 py-2 bg-cyan-100 text-cyan-700 rounded-full font-medium">
                 React
               </span>
+
               <span className="px-4 py-2 bg-sky-100 text-sky-700 rounded-full font-medium">
                 Tailwind CSS
               </span>
@@ -75,12 +80,12 @@ export default function About() {
 
             {/* Button */}
             <div className="mt-8">
-              <a
-                href="/contact"
+              <Link
+                to="/contact"
                 className="inline-block bg-blue-600 text-white px-6 py-3 rounded-xl font-semibold shadow-md hover:bg-blue-700 transition"
               >
                 Contact Me
-              </a>
+              </Link>
             </div>
           </div>
         </div>

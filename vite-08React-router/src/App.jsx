@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Header from './components/header/Header'
 import Footer from './components/footer/footer'
+import { Outlet } from 'react-router-dom'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       <Header />
+      <Outlet/>
       <h1 className='bg-blue-500 text-white p-4'> react-router </h1>
       <Footer />
     

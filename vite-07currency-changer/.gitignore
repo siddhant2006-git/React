@@ -22,3 +22,14 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Project documentation
+# Basic:
+#   - Project: Vite React currency changer
+#   - Purpose: convert currencies in a React app
+#   - Structure: src/, public/, package.json, vite.config.js
+# Advanced:
+#   - Uses React hooks for state and effect management
+#   - API integration for exchange rates or local sample data
+#   - Includes error handling, loading states, and modular components
+#   - Build output is stored in dist/ and ignored from version control
