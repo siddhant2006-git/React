@@ -6,7 +6,7 @@ import "./App.css";
 // useState is a hook that allows us to add state to our functional components. It returns an array with two elements: the current state value and a function to update it. We can use array destructuring to assign these values to variables. In this case, we are using useState to create a state variable called length and a function called setlength to update it. The initial value of length is set to 8.
 
 // useCallback- is a hook of react which are used to memorysis to the functional component which are held all  to  the function (all memory store )
-// useeffect - is a hook of react which are used only setmemory to held to th4e function (set memory store )
+// useeffect - is a hook of react which are used only setmemory to held to the function (set memory store )
 
 function App() {
   const [length, setlength] = useState(8);

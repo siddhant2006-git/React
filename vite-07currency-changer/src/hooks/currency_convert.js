@@ -18,7 +18,7 @@ function useCryptocurrency(currency = "USD") {
       };
 
       try {
-        const response = await fetch(url, options);
+        const response = await fetch(url, options);        
 
         if (!response.ok) {
           throw new Error("Failed to fetch currency data");
@@ -38,5 +38,3 @@ function useCryptocurrency(currency = "USD") {
 }
 
 export default useCryptocurrency;
-
-
